@@ -8,14 +8,14 @@ def read(fname):
 
 
 setup(
-    name="django-psycopg2-extension",
+    name="skip-django-psycopg2-extension",
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
-    version='0.1.1',
+    version='0.1.1.1',
     description="Library contains django commands which helps to prepare and manage PostgreSQL database.",
     author='Lubos Matl',
     author_email='matllubos@gmail.com',
-    url='https://github.com/druids/django-psycopg2-extension',
+    url='https://github.com/skip-pay/django-psycopg2-extension',
     license='MIT',
     package_dir={'psycopg2_extension': 'psycopg2_extension'},
     include_package_data=True,
