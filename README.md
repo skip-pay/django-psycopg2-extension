@@ -7,7 +7,7 @@ Library contains django commands which helps to prepare and manage PostgreSQL da
 Install djjango-psycopg2-extension
 
 ```bash
-pip install django-psycopg2-extension
+pip install skip-django-psycopg2-extension
 ```
 
 Add psycopg2_extension to your `INSTALLED_APPS`:
