@@ -17,6 +17,7 @@ class PsycopgBaseCommand(BaseCommand):
     def _get_connection(self, alias):
         connection = connections[alias]
         if connection.settings_dict['ENGINE'] not in {'django.db.backends.postgresql',
-                                                      'django.contrib.gis.db.backends.postgis'}:
+                                                      'django.contrib.gis.db.backends.postgis',
+                                                      'django_iam_dbauth.aws.postgis'}:
             raise CommandError('Unsupported database backend!')
         return connection
