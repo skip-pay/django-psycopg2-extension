@@ -11,7 +11,7 @@ setup(
     name="skip-django-psycopg2-extension",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    version="0.1.1.3",
+    version="0.2.0",
     description="Library contains django commands which helps to prepare and manage PostgreSQL database.",
     url="https://github.com/skip-pay/django-psycopg2-extension",
     license="MIT",
@@ -28,7 +28,7 @@ setup(
         "Topic :: Internet :: WWW/HTTP",
     ],
     install_requires=[
-        "django>=3.1,<4.0",
+        "django>=4.2",
     ],
     zip_safe=False,
 )
